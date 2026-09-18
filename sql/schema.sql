@@ -3,3 +3,5 @@
        Name NVARCHAR(100),
        Email NVARCHAR(100)
    );
+
+-- v1
