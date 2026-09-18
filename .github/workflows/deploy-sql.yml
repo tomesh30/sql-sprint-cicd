@@ -23,7 +23,7 @@ jobs:
         run: |
           az sql server firewall-rule create \
             --resource-group rg-sql-sprint \
-            --server sql-sprint-8842 \
+            --server sql-sprint-18673 \
             --name GitHubRunnerTemp \
             --start-ip-address ${{ steps.ip.outputs.ip }} \
             --end-ip-address ${{ steps.ip.outputs.ip }}
